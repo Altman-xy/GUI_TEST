@@ -13,6 +13,5 @@ class Runnerv3:
 
 if __name__ == '__main__':
     rn=Runnerv3()
-    # for i in range(10):
-    #     # rn.runner('../test_plan/testcasev6.xlsx','../test_plan/text_planv6.xlsx','Web')
+    rn.runner('../test_plan/testcasev6.xlsx','../test_plan/text_planv6.xlsx','Web')
     rn.runner('./test_plan/testcasev6.xlsx', './test_plan/text_planv6.xlsx', 'App')
